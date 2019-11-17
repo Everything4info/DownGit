@@ -1,9 +1,7 @@
 ﻿<div class="home">
-<div class="text-center">
-
+<center>
     <div class="vertical-space"></div>
-    <h1><a href="https://minhaskamal.github.io/DownGit">DownGit</a></h1>
-    <div class="center-row"></div>
+     <div class="center-row"></div>
     <h4>Create GitHub Resource Download Link</h4>
     
     
@@ -12,8 +10,8 @@
         <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
     </div>
     <div class="btn-group center-row">
-        <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
-        <button type="button" class="btn btn-default" ng-click="download()">Download</button>
+        <button type="button" class="btn btn-primary btn-Material ripple-effect" ng-click="createDownLink()">Create Download Link</button>
+        <button type="button" class="btn btn-primary btn-Material ripple-effect" ng-click="download()">Download</button>
     </div>
     
     
@@ -31,8 +29,13 @@
     
     <div class="vertical-space"></div>
     <div class="footer">
-        <a target="_blank" href="https://github.com/MinhasKamal/DownGit">DownGit</a> by <a target="_blank" href="https://github.com/MinhasKamal">Minhas Kamal</a>
+        <a target="_blank" href="https://everything4info.github.io/DownGit">DownGit</a> by <a target="_blank" href="https://i-know-now-plus.blogspot.com/">Iknp</a>
     </div>
-    
+    </center>
+
 </div>
-</div>
+<script type='text/javascript'>
+//<![CDATA[
+!function(h){h(".ripple-effect").click(function(t){var e=h(this);0==e.find(".ink").length&&e.append("<span class='ink'></span>");var i=e.find(".ink");if(i.removeClass("animate"),!i.height()&&!i.width()){var a=Math.max(e.outerWidth(),e.outerHeight());i.css({height:a,width:a})}var n=t.pageX-e.offset().left-i.width()/2,s=t.pageY-e.offset().top-i.height()/2;i.css({top:s+"px",left:n+"px"}).addClass("animate")})}(jQuery); 
+//]]>
+</script> 
