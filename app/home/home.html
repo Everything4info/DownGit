@@ -1,4 +1,4 @@
-﻿<div class="home">
+<div class="home">
 <center>
     <div class="vertical-space"></div>
      <div class="center-row"></div>
@@ -10,10 +10,12 @@
         <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
     </div>
     <div class="btn-group center-row">
+        <br></br><br></br><br></br>
         <button type="button" class="btn btn-primary btn-Material ripple-effect" ng-click="createDownLink()">Create Download Link</button>
+        <br></br>
         <button type="button" class="btn btn-primary btn-Material ripple-effect" ng-click="download()">Download</button>
     </div>
-    
+    <br></br><br></br><br></br><br></br>
     
     <div ng-show="isProcessing.val">
         <div class="vertical-space"></div>
@@ -21,7 +23,7 @@
         <p>Downloaded {{downloadedFiles.val}} of {{totalFiles.val}} files</p>
     </div>
     
-    
+    <br></br><br></br><br></br><br></br>
     <div class="col-md-6 center-row" ng-show="downUrl">
         <div class="vertical-space"></div>
         <textarea class="form-control download-link-box" ng-model="downUrl" ></textarea>
