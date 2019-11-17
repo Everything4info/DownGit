@@ -1,4 +1,3 @@
-
 var siteHeaderText = {};
 
 var downGit = angular.module('downGit', [
